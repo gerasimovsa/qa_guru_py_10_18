@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "qa-guru-py-10-18"
+version = "0.1.0"
+description = "Homework environment for lesson #18"
+authors = ["ra9_adept <gerasimov.ra9@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "==8.0.0"
+selene = "==2.0.0rc7"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
